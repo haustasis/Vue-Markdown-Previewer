@@ -5,7 +5,7 @@
         <i-column class="border-right" xs="6">
           <h1>Markdown</h1>
           <i-textarea
-            :class="$style.textarea"
+            rows="10"
             v-model="text"
             placeholder="Enter markdown here"
           />
@@ -40,11 +40,5 @@ export default {
 }
 .border-right {
   border-right: 1px solid;
-}
-</style>
-
-<style module>
-.textarea {
-  height: 400px;
 }
 </style>
