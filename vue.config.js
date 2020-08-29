@@ -1,5 +1,4 @@
 module.exports = {
-    transpileDependencies: [
-        '@inkline/inkline'
-    ]
+  transpileDependencies: ['@inkline/inkline'],
+  publicPath: '/vue-markdown-previewer/',
 };
