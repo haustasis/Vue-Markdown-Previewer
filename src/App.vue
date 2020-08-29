@@ -7,7 +7,7 @@
           <i-textarea
             rows="10"
             v-model="text"
-            placeholder="Enter markdown here"
+            placeholder="Enter markdown here ..."
           />
         </i-column>
         <i-column xs="6">
